@@ -345,7 +345,7 @@ void step7(){
 	}
 
 }
-/***********************ÚStep 8 : compute relation is End of **************************************/
+/***********************√≤Step 8 : compute relation is End of **************************************/
 void step8(){ // compute the reflexive transitive of the rules
 	vector<string> fromDEo;
 	vector<string> withitself;
@@ -417,7 +417,7 @@ EndOf.push_back(*ir);
 
 
 }
-/***********************ÚStep 9: compute relation is is followed by  **************************************/
+/***********************√≤Step 9: compute relation is is followed by  **************************************/
 /*********************
  *  W EO X
  *  X FDB Y
@@ -455,7 +455,7 @@ void  step9(){
 
 
 }
-/***********************ÚStep 10 :  extend the followed by to include end mark  **************************************/
+/***********************√≤Step 10 :  extend the followed by to include end mark  **************************************/
 
 void step10(){
 	//A FB if A EO S where A represents any nonterminal and S represents
